@@ -1,0 +1,27 @@
+{
+  "name": "sainsburys-browserstack-automate-demo",
+  "description": "Quick browserstack automate demo",
+  "version": "0.1.0",
+  "description": "Sainsburys example for browserstack automate",
+  "scripts": {
+    "sainsburys_test": "./node_modules/.bin/wdio conf/sainsburys_test.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rksheldon/sainsburys-browserstack-automate.git"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "webdriverio",
+    "browserstack",
+    "selenium",
+    "tests"
+  ],
+  "dependencies": {
+    "browserstack-local": "^1.0.0",
+    "webdriverio": "^4.0.5"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.2.11"
+  }
+}
